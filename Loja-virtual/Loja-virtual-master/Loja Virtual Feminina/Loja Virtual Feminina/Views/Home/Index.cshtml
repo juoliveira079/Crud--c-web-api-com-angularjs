@@ -1,0 +1,39 @@
+﻿@{
+
+Layout=null;
+
+   }
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="Myapp">
+<head>
+    <title>CRUD-Basico</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/font-awesome.css"/>
+</head>
+<body ng-controller="MainController">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <ul class="nav navbar-nav">
+            <li role="presentation" class="active"><a href="#/">Inicio</a></li>
+            <li role="presentation"><a href="#/usuario">Usuarios</a></li>
+            <li role="presentation"><a href="#/produto">Produtos</a></li>
+            <li role="presentation"><a href="#/categoria">Categorias</a></li>
+            <li role="presentation"><a href="#/cart">Carrinho</a></li>
+            <li role="presentation"><a href="#/sale">Venda</a></li>
+        </ul>
+    </nav>
+    <div>
+        <ng-view></ng-view>
+    </div>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/AngularJs/MainController.js"></script>
+    <script src="~/AngularJs/ConfigRotas.js"></script>
+    <script src="~/AngularJs/controllers/userController.js"></script>
+    <script src="~/AngularJs/controllers/productController.js"></script>
+    <script src="~/AngularJs/controllers/categoryController.js"></script>
+    <script src="~/AngularJs/controllers/cartController.js"></script>
+    <script src="~/AngularJs/controllers/saleController.js"></script>
+</body>
+</html>

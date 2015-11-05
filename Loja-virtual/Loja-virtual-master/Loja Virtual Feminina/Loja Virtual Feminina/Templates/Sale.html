@@ -1,0 +1,77 @@
+﻿<br>
+<br>
+<br>
+<br>
+<div ng-app ng-controller="saleController" class="container">
+    <strong class="error">{{ error }}</strong>
+    <div id="mydiv" ng-show="loading">
+    </div>
+    <p ng-hide="addMode" title="Adicionar">
+        <a ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
+    </p>
+    <br>
+    <br>
+    <form name="addsale" ng-show="addMode" style="width:600px;margin:0px auto;">
+        <div class="form-group">
+            <label class="col-lg-2">Id:</label>
+            <span class="col-lg-10">
+                <input type="text" class="form-control" data-ng-model="newSale.SaleId" required />
+            </span>
+        </div>
+        <br>
+        <div class="form-group">
+            <label class="col-lg-2">Nome:</label>
+            <span class="col-lg-10">
+                <select id="user" class="form-control" ng-model="newSale.User_Sale" ng-options="p.Id as p.name for p in users "></select>
+            </span>
+        </div>
+        <br>
+        <div class="form-group">
+            <label class="col-lg-2 " for="category">Produtos:</label>
+            <span class="col-lg-10">
+                <select id="product" class="form-control" ng-model="newSale.Product_Sale" ng-options="p.Id as p.productName for p in products "></select>
+            </span>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2">Carrinho:</label>
+            <span class="col-lg-10">
+                <select id="cart" class="form-control" ng-model="newSale.Cart_Sale" ng-options="p.Id as p.cartId for p in carts "></select>
+            </span>
+        </div>
+        <br>
+        <br>
+        <input type="submit" value="Adicionar" ng-click="add(newSale)" ng-disabled="!addsale.$valid" class="btn btn-default" />
+        <input type="button" value="Cancelar"  ng-click="toggleAdd()" class="btn btn-default" />
+        <br /><br />
+    </form>
+    <table class="table table-bordered table-hover" style="width:800px auto">
+        <tr>
+            <th>#</th>
+            <td>Usuario</td>
+            <th>Produto</th>
+            <th>Carrinho</th>
+            <th>Ações</th>
+        </tr>
+        <tr ng-repeat="sale in sales">
+            <td><strong ng-hide="sale.editMode">{{sale.saleId }}</strong></td>
+            <td>
+                <p ng-hide="sale.editMode">{{sale.user_Sale }}</p>
+                <input class="form-control" ng-show="sale.editMode" type="text" ng-model="sale.user_Sale" />
+            </td>
+            <td>
+                <p ng-hide="sale.editMode">{{sale.product_Sale }}</p>
+                <input class="form-control" ng-show="sale.editMode" type="text" ng-model="sale.product_Sale" />
+            </td>
+            <td>
+                <p ng-hide="sale.editMode">{{sale.cart_Sale }}</p>
+                <input class="form-control" ng-show="sale.editMode" type="text" ng-model="sale.cart_Sale" />
+            </td>
+            <td>
+                <p ng-hide="sale.editMode"><a ng-click="toggleEdit(sale)" href="javascript:;"><i class="fa fa-edit fa-fw"></i></a> | <a ng-click="delete(sale)" href="javascript:;"><i class="fa fa-trash-o fa-fw"></i></a></p>
+                <p ng-show="sale.editMode"><a ng-click="save(sale)" href="javascript:;"><i class="fa fa-save fa-fw"></i></a> | <a ng-click="toggleEdit(sale)" href="javascript:;"><i class="fa fa-times fa-fw"></i></a></p>
+           
+            </td>
+        </tr>
+    </table>
+    <hr />
+</div>
