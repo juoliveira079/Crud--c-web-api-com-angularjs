@@ -1,6 +1,4 @@
 ﻿using Loja_Virtual_Feminina.Models;
-using Loja_Virtual_Feminina.Models.Context;
-using Loja_Virtual_Feminina.Models.Modelo;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

@@ -1,20 +1,26 @@
-﻿using Loja_Virtual_Feminina.Models.Modelo;
+﻿using Loja_Virtual_Feminina.Interface.Categories;
+using Loja_Virtual_Feminina.Models.Modelo;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace Loja_Virtual_Feminina.Models.Context
+namespace Loja_Virtual_Feminina.Models
 {
-    public class CategoryContext : DbContext
+    public class CategoryContext : DbContext, ICategoryContext
     {
+
         public CategoryContext()
             : base("name=DefaultConnection")
         {
-            base.Configuration.ProxyCreationEnabled = false;
         }
 
-        public DbSet<Category> Categories { get; set; }
+        public System.Data.Entity.DbSet<Category> Categories { get; set; }
+        public void MarkAsModified(Category item)
+        {
+            Entry(item).State = EntityState.Modified;
+        }
+    
     }
 }

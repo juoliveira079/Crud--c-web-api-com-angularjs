@@ -9,8 +9,9 @@ namespace Loja_Virtual_Feminina.Models
 {
     public class ProductContext : DbContext, IProductContext
     {
-    
-        public ProductContext() : base("name=ProductContext")
+
+        public ProductContext()
+            : base("name=DefaultConnection")
         {
         }
 

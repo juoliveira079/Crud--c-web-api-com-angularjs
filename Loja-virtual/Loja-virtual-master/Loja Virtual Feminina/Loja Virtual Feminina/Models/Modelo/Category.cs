@@ -9,8 +9,7 @@ namespace Loja_Virtual_Feminina.Models.Modelo
 {
     public class Category
     {
-        [Key]
-        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
+       
         public int CategoryId {get; set;}
         public string Category_Name {get; set;}
         

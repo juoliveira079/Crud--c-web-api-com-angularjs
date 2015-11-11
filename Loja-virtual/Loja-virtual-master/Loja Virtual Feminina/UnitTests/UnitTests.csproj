@@ -73,6 +73,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Categories\TestCategoryContext.cs" />
+    <Compile Include="Categories\TestCategoryDbSet.cs" />
+    <Compile Include="Categories\TestCategoryController.cs" />
     <Compile Include="Products\TestProductContext.cs" />
     <Compile Include="Products\TestProductController.cs" />
     <Compile Include="Products\TestProductDbSet.cs" />

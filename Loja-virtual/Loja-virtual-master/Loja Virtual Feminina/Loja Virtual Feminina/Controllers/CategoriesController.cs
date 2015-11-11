@@ -8,14 +8,22 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Loja_Virtual_Feminina.Models.Context;
+using Loja_Virtual_Feminina.Models;
 using Loja_Virtual_Feminina.Models.Modelo;
+using Loja_Virtual_Feminina.Interface.Categories;
 
 namespace Loja_Virtual_Feminina.Controllers
 {
     public class CategoriesController : ApiController
     {
-        private CategoryContext db = new CategoryContext();
+        private ICategoryContext db = new CategoryContext();
+
+        public CategoriesController() { }
+
+        public CategoriesController(ICategoryContext context)
+        {
+            db = context;
+        }
 
         // GET: api/Categories
         public IQueryable<Category> GetCategories()
@@ -50,7 +58,8 @@ namespace Loja_Virtual_Feminina.Controllers
                 return BadRequest();
             }
 
-            db.Entry(category).State = EntityState.Modified;
+           // db.Entry(category).State = EntityState.Modified;
+            db.MarkAsModified(category);
 
             try
             {
