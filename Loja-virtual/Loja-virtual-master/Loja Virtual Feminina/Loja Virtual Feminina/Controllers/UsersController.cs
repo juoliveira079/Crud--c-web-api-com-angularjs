@@ -9,12 +9,21 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using Loja_Virtual_Feminina.Models;
+using Loja_Virtual_Feminina.Interface.Users;
 
 namespace Loja_Virtual_Feminina.Controllers
 {
     public class UsersController : ApiController
     {
-        private UserContext db = new UserContext();
+
+        private IUserContext db = new UserContext();
+
+        public UsersController() { }
+
+        public UsersController(IUserContext context)
+        {
+            db = context;
+        }
 
         // GET: api/Users
         public IQueryable<User> GetUsers()
@@ -49,7 +58,8 @@ namespace Loja_Virtual_Feminina.Controllers
                 return BadRequest();
             }
 
-            db.Entry(user).State = EntityState.Modified;
+           // db.Entry(user).State = EntityState.Modified;
+            db.MarkAsModified(user);
 
             try
             {

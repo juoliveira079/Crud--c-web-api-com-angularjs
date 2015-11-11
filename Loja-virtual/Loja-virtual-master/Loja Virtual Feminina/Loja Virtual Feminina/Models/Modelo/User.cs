@@ -11,8 +11,6 @@ namespace Loja_Virtual_Feminina.Models
 {
     public class User
     {
-        [Key]
-        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int UserId { get; set; }
         public string Name { get; set; }
         public string Cpf { get; set; }

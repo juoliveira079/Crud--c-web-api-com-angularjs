@@ -48,6 +48,9 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -207,21 +210,22 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Interface\ISaleRepository.cs" />
-    <Compile Include="Interface\ICartRepository.cs" />
-    <Compile Include="Interface\IProductRepository.cs" />
-    <Compile Include="Interface\ICategoryRepository.cs" />
-    <Compile Include="Interface\IUserRepository.cs" />
+    <Compile Include="Interface\Sales\ISaleRepository.cs" />
+    <Compile Include="Interface\Carts\ICartRepository.cs" />
+    <Compile Include="Interface\Products\IProductRepository.cs" />
+    <Compile Include="Interface\Categories\ICategoryRepository.cs" />
+    <Compile Include="Interface\Users\IUserContext.cs" />
+    <Compile Include="Interface\Users\IUserRepository.cs" />
     <Compile Include="Models\Context\CartContext.cs" />
     <Compile Include="Models\Context\CategoryContext.cs" />
     <Compile Include="Models\Modelo\Cart.cs" />
     <Compile Include="Models\Context\ProductContext.cs" />
-    <Compile Include="Models\Context\UseContext.cs" />
     <Compile Include="Models\Modelo\Category.cs" />
     <Compile Include="Models\Modelo\Sale.cs" />
     <Compile Include="Models\Modelo\User.cs" />
     <Compile Include="Models\Modelo\Product.cs" />
     <Compile Include="Models\Context\SaleContext.cs" />
+    <Compile Include="Templates\UserContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\SaleDbInitalize.cs" />
     <Compile Include="Repository\SaleRepository.cs" />

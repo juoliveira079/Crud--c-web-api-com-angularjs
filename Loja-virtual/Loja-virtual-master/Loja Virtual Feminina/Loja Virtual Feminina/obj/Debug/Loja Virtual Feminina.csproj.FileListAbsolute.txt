@@ -186,3 +186,67 @@ C:\Users\juliana.oliveira\Documents\Loja-virtual\Loja-virtual-master\Loja Virtua
 C:\Users\juliana.oliveira\Documents\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Http.Owin.xml
 C:\Users\juliana.oliveira\Documents\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.dll
 C:\Users\juliana.oliveira\Documents\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.pdb
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Loja Virtual Feminina.dll.config
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Loja Virtual Feminina.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Loja Virtual Feminina.pdb
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Antlr3.Runtime.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\EntityFramework.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\EntityFramework.SqlServer.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Newtonsoft.Json.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Owin.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Net.Http.Formatting.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Helpers.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Http.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Http.Owin.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Http.WebHost.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Mvc.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Optimization.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Razor.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.WebPages.Deployment.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.WebPages.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.WebPages.Razor.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\WebGrease.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\EntityFramework.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\EntityFramework.SqlServer.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Newtonsoft.Json.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Net.Http.Formatting.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Helpers.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Http.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Http.WebHost.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Mvc.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Optimization.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Razor.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.WebPages.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.WebPages.Deployment.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.WebPages.Razor.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Antlr3.Runtime.pdb
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Http.Owin.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.pdb
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\nunit.framework.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\nunit.framework.xml
