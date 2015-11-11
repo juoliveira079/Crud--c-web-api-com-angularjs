@@ -9,12 +9,20 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using Loja_Virtual_Feminina.Models;
+using Loja_Virtual_Feminina.Interface.Categories;
 
 namespace Loja_Virtual_Feminina.Controllers
 {
     public class CartsController : ApiController
     {
-        private CartContext db = new CartContext();
+        private ICartContext db = new CartContext();
+
+        public CartsController() { }
+
+        public CartsController(ICartContext context)
+        {
+            db = context;
+        }
 
         // GET: api/Carts
         public IQueryable<Cart> GetCarts()
@@ -49,7 +57,8 @@ namespace Loja_Virtual_Feminina.Controllers
                 return BadRequest();
             }
 
-            db.Entry(cart).State = EntityState.Modified;
+           // db.Entry(cart).State = EntityState.Modified;
+            db.MarkAsModified(cart);
 
             try
             {

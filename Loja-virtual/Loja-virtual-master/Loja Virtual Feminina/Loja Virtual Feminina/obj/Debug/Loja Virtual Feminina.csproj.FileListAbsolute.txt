@@ -206,6 +206,7 @@ C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\L
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Owin.Security.Twitter.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Newtonsoft.Json.dll
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\nunit.framework.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Owin.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Net.Http.Formatting.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Helpers.dll
@@ -221,6 +222,7 @@ C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\L
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\WebGrease.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\EntityFramework.xml
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\EntityFramework.SqlServer.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\nunit.framework.xml
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\Newtonsoft.Json.xml
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Net.Http.Formatting.xml
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Helpers.xml
@@ -248,5 +250,4 @@ C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\L
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\System.Web.Http.Owin.xml
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.pdb
-C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\nunit.framework.dll
-C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\nunit.framework.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.csprojResolveAssemblyReference.cache

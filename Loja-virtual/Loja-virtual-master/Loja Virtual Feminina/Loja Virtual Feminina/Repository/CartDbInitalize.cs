@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Loja_Virtual_Feminina.Repository
 {
-    public class CartDbInitalize : DropCreateDatabaseIfModelChanges<CartContext>
+    /*public class CartDbInitalize : DropCreateDatabaseIfModelChanges<CartContext>
     {
         protected override void Seed(CartContext context)
         {
@@ -32,5 +32,5 @@ namespace Loja_Virtual_Feminina.Repository
             context.SaveChanges();
             base.Seed(context);
         }
-    }
+    }*/
 }

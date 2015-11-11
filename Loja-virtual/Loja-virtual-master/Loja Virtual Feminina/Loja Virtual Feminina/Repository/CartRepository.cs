@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Loja_Virtual_Feminina.Repository
 {
-    public class CartRepository
+    /*public class CartRepository
     {
         CartContext context = new CartContext();
         public void Add(Cart b)
@@ -39,5 +39,5 @@ namespace Loja_Virtual_Feminina.Repository
             var c = (from r in context.Carts where r.CartId == Id select r).FirstOrDefault();
             return c;
         }
-    }
+    }*/
 }

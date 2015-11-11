@@ -210,6 +210,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Interface\Carts\ICartContext.cs" />
     <Compile Include="Interface\Categories\ICategoryContext.cs" />
     <Compile Include="Interface\Products\IProductContext.cs" />
     <Compile Include="Interface\Sales\ISaleRepository.cs" />
@@ -218,8 +219,8 @@
     <Compile Include="Interface\Categories\ICategoryRepository.cs" />
     <Compile Include="Interface\Users\IUserContext.cs" />
     <Compile Include="Interface\Users\IUserRepository.cs" />
-    <Compile Include="Models\Context\CategoryContext.cs" />
     <Compile Include="Models\Context\CartContext.cs" />
+    <Compile Include="Models\Context\CategoryContext.cs" />
     <Compile Include="Models\Modelo\Cart.cs" />
     <Compile Include="Models\Modelo\Category.cs" />
     <Compile Include="Models\Modelo\Sale.cs" />

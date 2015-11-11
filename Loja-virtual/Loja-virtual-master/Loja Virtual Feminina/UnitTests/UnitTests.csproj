@@ -73,6 +73,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Carts\TestCartContext.cs" />
+    <Compile Include="Carts\TestCartController.cs" />
+    <Compile Include="Carts\TestCategoryDbSet.cs" />
     <Compile Include="Categories\TestCategoryContext.cs" />
     <Compile Include="Categories\TestCategoryDbSet.cs" />
     <Compile Include="Categories\TestCategoryController.cs" />
@@ -95,6 +98,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

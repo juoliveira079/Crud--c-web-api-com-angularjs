@@ -1,4 +1,3 @@
-C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\bin\Debug\UnitTests.dll.config
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\bin\Debug\UnitTests.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\bin\Debug\UnitTests.pdb
@@ -45,5 +44,6 @@ C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\L
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\bin\Debug\Microsoft.Owin.Security.xml
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\obj\Debug\UnitTests.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\UnitTests\obj\Debug\UnitTests.pdb
