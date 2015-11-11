@@ -9,13 +9,21 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using Loja_Virtual_Feminina.Models;
+using Loja_Virtual_Feminina.Interface.Sales;
 
 namespace Loja_Virtual_Feminina.Controllers
 {
     public class SalesController : ApiController
     {
-        private SaleContext db = new SaleContext();
 
+        private ISaleContext db = new SaleContext();
+
+        public SalesController() { }
+
+        public SalesController(ISaleContext context)
+        {
+            db = context;
+        }
         // GET: api/Sales
         public IQueryable<Sale> GetSales()
         {
@@ -49,7 +57,8 @@ namespace Loja_Virtual_Feminina.Controllers
                 return BadRequest();
             }
 
-            db.Entry(sale).State = EntityState.Modified;
+            //db.Entry(sale).State = EntityState.Modified;
+            db.MarkAsModified(sale);
 
             try
             {

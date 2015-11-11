@@ -10,8 +10,6 @@ namespace Loja_Virtual_Feminina.Models
 {
     public class Sale
     {
-        [Key]
-        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int SaleId{ get; set;}
         public String User_Sale {get; set; }
         public String Product_Sale {get; set;}

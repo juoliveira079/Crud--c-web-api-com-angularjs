@@ -213,6 +213,7 @@
     <Compile Include="Interface\Carts\ICartContext.cs" />
     <Compile Include="Interface\Categories\ICategoryContext.cs" />
     <Compile Include="Interface\Products\IProductContext.cs" />
+    <Compile Include="Interface\Sales\ISaleContext.cs" />
     <Compile Include="Interface\Sales\ISaleRepository.cs" />
     <Compile Include="Interface\Carts\ICartRepository.cs" />
     <Compile Include="Interface\Products\IProductRepository.cs" />
@@ -226,9 +227,9 @@
     <Compile Include="Models\Modelo\Sale.cs" />
     <Compile Include="Models\Modelo\User.cs" />
     <Compile Include="Models\Modelo\Product.cs" />
-    <Compile Include="Models\Context\SaleContext.cs" />
     <Compile Include="Models\Context\ProductContext.cs" />
     <Compile Include="Models\Context\UserContext.cs" />
+    <Compile Include="Models\Context\SaleContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\SaleDbInitalize.cs" />
     <Compile Include="Repository\SaleRepository.cs" />
