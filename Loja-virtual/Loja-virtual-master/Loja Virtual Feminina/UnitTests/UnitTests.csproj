@@ -73,6 +73,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Products\TestProductContext.cs" />
+    <Compile Include="Products\TestProductController.cs" />
+    <Compile Include="Products\TestProductDbSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDbSet.cs" />
     <Compile Include="Users\TestUserContext.cs" />

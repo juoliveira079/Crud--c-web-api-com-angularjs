@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Loja_Virtual_Feminina.Repository
 {
-    public class ProductDbInitalize : DropCreateDatabaseIfModelChanges<ProductContext>
+   public class ProductDbInitalize : DropCreateDatabaseIfModelChanges<ProductContext>
     {
         protected override void Seed(ProductContext context)
         {

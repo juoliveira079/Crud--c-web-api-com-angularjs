@@ -11,8 +11,6 @@ namespace Loja_Virtual_Feminina.Models
 {
     public class Product
     {
-        [Key]
-        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int ProductId{ get; set; }
         public string ProductName { get; set; }
         public string Category_Product { get; set; }

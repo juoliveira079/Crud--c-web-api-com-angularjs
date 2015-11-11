@@ -250,3 +250,4 @@ C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\L
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.pdb
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\nunit.framework.dll
 C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\bin\nunit.framework.xml
+C:\Users\juliana.oliveira\Documents\Crud--c-web-api-com-angularjs\Loja-virtual\Loja-virtual-master\Loja Virtual Feminina\Loja Virtual Feminina\obj\Debug\Loja Virtual Feminina.csprojResolveAssemblyReference.cache
