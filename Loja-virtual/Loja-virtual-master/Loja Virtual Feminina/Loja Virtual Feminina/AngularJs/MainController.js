@@ -9,4 +9,5 @@ app.controller('MainController', function ($scope) {
             alert('Cadastro Realizado com sucesso!');
         }
     };
+   
 });

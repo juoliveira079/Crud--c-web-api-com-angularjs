@@ -1,114 +1,118 @@
-﻿<br>
-<br>
-<br>
-<br>
-<style>
-    #mydiv {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        background-color: grey;
-        opacity: .8;
-    }
+﻿<div id="wrapper">
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav side-nav">
+            <li class="active">
+                <a href="#/usuario"><i class="fa fa-fw fa-user"></i> Usuarios</a>
+            </li>
+            <li>
+                <a href="#/produto"><i class="fa fa-fw fa-list"></i> Produtos</a>
+            </li>
+            <li>
+                <a href="#/categoria"><i class="fa fa-fw fa-list"></i> Categorias</a>
+            </li>
+            <li>
+                <a href="#/cart"><i class="fa fa-fw fa-shopping-cart"></i> Carrinhos</a>
+            </li>
+            <li>
+                <a href="#/sale"><i class="fa fa-fw fa-list"></i> Vendas</a>
+            </li>
+            <li>
+                <a href="#/configs"><i class="fa fa-fw fa-wrench"></i> Configurações</a>
+            </li>
 
-    .ajax-loader {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        margin-left: -32px;
-        margin-top: -32px;
-        display: block;
-    }
-</style>
-<div data-ng-app data-ng-controller="userController" class="container">
-    <strong class="error">{{ error }}</strong>
-    <div id="mydiv" data-ng-show="loading">
+        </ul>
     </div>
-    <p data-ng-hide="addMode" title="Adicionar">
-        <a data-ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
-    </p>
-    <br>
-    <br>
-    <form name="adduser" data-ng-show="addMode" style="width:600px;margin:0px auto;">
-        <div class="form-group">
-            <label class="col-lg-2">Id:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control " data-ng-model="newUser.UserId" required />
-            </span>
-        </div>
-        <br>
-        <br>
-        <div class="form-group">
-            <label class="col-lg-2">Nome:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control " data-ng-model="newUser.Name" required />
-            </span>
-        </div>
-        <br>
-        <br>
-        <div class="form-group">
-            <label class="col-lg-2">Cpf:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control " data-ng-model="newUser.Cpf" required />
-                </span>
-         </div>
-        <br>
-        <br>
-        <div class="form-group">
-            <label class="col-lg-2">Endereço:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control " data-ng-model="newUser.End" required />
-                </span>
-            </div>
-            <br>
-            <br>
-        <div class="form-group">
-            <label class="col-lg-2">Telefone:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control " data-ng-model="newUser.Phone" required />
-            </span>
-        </div>
-        <br>
-        <br>
-            <input type="submit" value="Adicionar" data-ng-click="add()" data-ng-disabled="!adduser.$valid" class="btn btn-default" />
-            <input type="button" value="Cancelar" data-ng-click="toggleAdd()" class="btn btn-default" />
-            <br /><br />
-</form>
-    <table class="table table-bordered table-hover" style="width:800px">
-        <tr>
-            <th>#</th>
-            <th>Nome</th>
-            <th>Cpf</th>
-            <th>Endereço</th>
-            <th>Telefone</th>
-            <th>Ações</th>
-        </tr>
+    <div id="page-wrapper">
+        <div class="container" data-ng-app data-ng-controller="userController">
 
-        <tr ng-repeat="user in users">
-            <td><strong ng-hide="user.editMode">{{ user.userId }}</strong></td>
-            <td>
-                <p ng-hide="user.editMode">{{ user.name }}</p>
-                <input class="form-control" ng-show="user.editMode" type="text" ng-model="user.name" />
-            </td>
-            <td>
-                <p ng-hide="user.editMode">{{ user.cpf }}</p>
-                <input class="form-control" ng-show="user.editMode" type="text" ng-model="user.cpf" />
-            </td>
-            <td>
-                <p ng-hide="user.editMode">{{ user.end }}</p>
-                <input class="form-control" ng-show="user.editMode" type="text" ng-model="user.end" />
-            </td>
-            <td>
-                <p ng-hide="user.editMode">{{ user.phone }}</p>
-                <input class="form-control" ng-show="user.editMode" type="text" ng-model="user.phone" />
-            </td>
-            <td>
-                <p ng-hide="user.editMode"><a ng-click="toggleEdit(user)" href="javascript:;"><i class="fa fa-edit fa-fw"></i></a> | <a ng-click="delete(user)" href="javascript:;"><i class="fa fa-trash-o fa-fw"></i></a></p>
-                <p ng-show="user.editMode"><a ng-click="save(user)" href="javascript:;"><i class="fa fa-save fa-fw"></i></a> | <a ng-click="toggleEdit(user)" href="javascript:;"><i class="fa fa-times fa-fw"></i></a></p>
-            </td>
-        </tr>
-    </table>
-    <hr />
-</div>
+            <strong class="error">{{ error }}</strong>
+            <div id="mydiv" data-ng-show="loading">
+            </div>
+            <p data-ng-hide="addMode" title="Adicionar">
+                <a data-ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
+            </p>
+            <br>
+            <br>
+            <form name="adduser" data-ng-show="addMode" style="width:600px;margin:0px auto;">
+                <div class="form-group">
+                    <label class="col-lg-2">Id:</label>
+                    <span class="col-lg-10">
+                        <input type="text" class="form-control " data-ng-model="newUser.UserId" required />
+                    </span>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-2">Nome:</label>
+                    <span class="col-lg-10">
+                        <input type="text" class="form-control " data-ng-model="newUser.Name" required />
+                    </span>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-2">Cpf:</label>
+                    <span class="col-lg-10">
+                        <input type="text" class="form-control " data-ng-model="newUser.Cpf" required />
+                    </span>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-2">Endereço:</label>
+                    <span class="col-lg-10">
+                        <input type="text" class="form-control " data-ng-model="newUser.End" required />
+                    </span>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-2">Telefone:</label>
+                    <span class="col-lg-10">
+                        <input type="text" class="form-control " data-ng-model="newUser.Phone" required />
+                    </span>
+                </div>
+                <br>
+                <br>
+                <input type="submit" value="Adicionar" data-ng-click="add()" data-ng-disabled="!adduser.$valid" class="btn btn-default" />
+                <input type="button" value="Cancelar" data-ng-click="toggleAdd()" class="btn btn-default" />
+                <br /><br />
+            </form>
+            <table class="table table-bordered table-hover" style="width:800px">
+                <tr>
+                    <th>#</th>
+                    <th>Nome</th>
+                    <th>Cpf</th>
+                    <th>Endereço</th>
+                    <th>Telefone</th>
+                    <th>Ações</th>
+                </tr>
+
+                <tr ng-repeat="user in users">
+                    <td><strong ng-hide="user.editMode">{{ user.userId }}</strong></td>
+                    <td>
+                        <p ng-hide="user.editMode">{{ user.name }}</p>
+                        <input class="form-control" ng-show="user.editMode" type="text" ng-model="user.name" />
+                    </td>
+                    <td>
+                        <p ng-hide="user.editMode">{{ user.cpf }}</p>
+                        <input class="form-control" ng-show="user.editMode" type="text" ng-model="user.cpf" />
+                    </td>
+                    <td>
+                        <p ng-hide="user.editMode">{{ user.end }}</p>
+                        <input class="form-control" ng-show="user.editMode" type="text" ng-model="user.end" />
+                    </td>
+                    <td>
+                        <p ng-hide="user.editMode">{{ user.phone }}</p>
+                        <input class="form-control" ng-show="user.editMode" type="text" ng-model="user.phone" />
+                    </td>
+                    <td>
+                        <p ng-hide="user.editMode"><a ng-click="toggleEdit(user)" href="javascript:;"><i class="fa fa-edit fa-fw"></i></a> | <a ng-click="delete(user)" href="javascript:;"><i class="fa fa-trash-o fa-fw"></i></a></p>
+                        <p ng-show="user.editMode"><a ng-click="save(user)" href="javascript:;"><i class="fa fa-save fa-fw"></i></a> | <a ng-click="toggleEdit(user)" href="javascript:;"><i class="fa fa-times fa-fw"></i></a></p>
+                    </td>
+                </tr>
+            </table>
+            <hr />
+        </div>
+        </div>
+    </div>

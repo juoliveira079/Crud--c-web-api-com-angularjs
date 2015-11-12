@@ -246,10 +246,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AngularJs\ConfigRotas.js" />
+    <Content Include="AngularJs\controllers\adminController.js" />
     <Content Include="AngularJs\controllers\saleController.js" />
     <Content Include="AngularJs\controllers\cartController.js" />
     <Content Include="AngularJs\controllers\categoryController.js" />
     <Content Include="AngularJs\controllers\productController.js" />
+    <Content Include="AngularJs\controllers\showcaseController.js" />
     <Content Include="AngularJs\controllers\userController.js" />
     <Content Include="AngularJs\MainController.js" />
     <Content Include="App_Data\crudLoja.mdf" />
@@ -264,11 +266,17 @@
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\jasmine.css" />
+    <Content Include="css\morris.css" />
+    <Content Include="css\sb-admin.css" />
+    <Content Include="css\shop-homepage.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Imagens\vestido-1.jpg" />
+    <Content Include="Imagens\laço.png" />
+    <Content Include="Imagens\slide.jpg" />
+    <Content Include="Imagens\slide2.jpg" />
+    <Content Include="Imagens\slide3.jpg" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -1098,6 +1106,7 @@
     <Content Include="Content\img\cd-remove-item.svg" />
     <Content Include="Content\img\thumb.jpg" />
     <Content Include="Content\img\vestido-de-malha.jpg" />
+    <Content Include="Templates\Admin.html" />
     <Content Include="Templates\Cart.html" />
     <Content Include="Templates\Category.html" />
     <Content Include="Templates\User.html" />
