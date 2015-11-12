@@ -252,9 +252,9 @@
     <Content Include="AngularJs\controllers\productController.js" />
     <Content Include="AngularJs\controllers\userController.js" />
     <Content Include="AngularJs\MainController.js" />
-    <Content Include="App_Data\Crud.mdf" />
-    <Content Include="App_Data\Crud_log.ldf">
-      <DependentUpon>Crud.mdf</DependentUpon>
+    <Content Include="App_Data\crudLoja.mdf" />
+    <Content Include="App_Data\crudLoja_log.ldf">
+      <DependentUpon>crudLoja.mdf</DependentUpon>
     </Content>
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap-theme.css" />
