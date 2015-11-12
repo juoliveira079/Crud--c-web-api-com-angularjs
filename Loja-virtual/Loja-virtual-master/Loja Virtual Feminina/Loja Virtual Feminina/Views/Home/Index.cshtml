@@ -11,18 +11,16 @@ Layout=null;
     <link rel="stylesheet" href="~/Content/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/font-awesome.css"/>
     <link rel="stylesheet" href="~/css/shop-homepage.css"/>
-   <link rel="stylesheet"  href="~/css/morris.css"/>
    <link rel="stylesheet" href="~/css/sb-admin.css"/>
     <link rel="shortcut icon" href="~/Imagens/laço.png" />
 </head>
-<body ng-controller="MainController">
+<body  ng-controller="MainController">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <ul class="nav navbar-nav">
             <li role="presentation" class="active"><a href="#/">Loja Virtual</a></li>
-            <li role="presentation" ><a href="#/showcase">Principal</a></li>
-            <li role="presentation"><a href="#/admin">Admin</a></li>
-         </ul>
-        </nav>
+            <li role="presentation"><a href="#/admin">Admin <i class="fa fa-sign-in"></i></a></li>
+        </ul>
+    </nav>
     <div>
         <ng-view></ng-view>
     </div>

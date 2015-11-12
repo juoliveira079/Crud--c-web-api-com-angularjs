@@ -1,102 +1,105 @@
-﻿
-<div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav side-nav">
-        <li class="active">
-            <a href="#/usuario"><i class="fa fa-fw fa-user"></i> Usuarios</a>
-        </li>
-        <li>
-            <a href="#/produto"><i class="fa fa-fw fa-list"></i> Produtos</a>
-        </li>
-        <li>
-            <a href="#/categoria"><i class="fa fa-fw fa-list"></i> Categorias</a>
-        </li>
-        <li>
-            <a href="#/cart"><i class="fa fa-fw fa-shopping-cart"></i> Carrinhos</a>
-        </li>
-        <li>
-            <a href="#/sale"><i class="fa fa-fw fa-list"></i> Vendas</a>
-        </li>
-        <li>
-            <a href="#/configs"><i class="fa fa-fw fa-wrench"></i> Configurações</a>
-        </li>
+﻿<div id="wrapper">
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav side-nav">
+            <li class="active">
+                <a href="#/usuario"><i class="fa fa-fw fa-user"></i> Usuarios</a>
+            </li>
+            <li>
+                <a href="#/produto"><i class="fa fa-fw fa-list"></i> Produtos</a>
+            </li>
+            <li>
+                <a href="#/categoria"><i class="fa fa-fw fa-list"></i> Categorias</a>
+            </li>
+            <li>
+                <a href="#/cart"><i class="fa fa-fw fa-shopping-cart"></i> Carrinhos</a>
+            </li>
+            <li>
+                <a href="#/sale"><i class="fa fa-fw fa-list"></i> Vendas</a>
+            </li>
+            <li>
+                <a href="#/configs"><i class="fa fa-fw fa-wrench"></i> Configurações</a>
+            </li>
 
-    </ul>
-</div>
-<div data-ng-app data-ng-controller="cartController" class="container">
-    <strong class="error">{{ error }}</strong>
-    <div id="mydiv" data-ng-show="loading">
+        </ul>
     </div>
-    <p data-ng-hide="addMode" title="Adicionar">
-        <a data-ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
-    </p>
-    <br>
-    <br>
-    <form name="addcart" data-ng-show="addMode" style="width:600px;margin:0px auto;">
-        <div class="form-group">
-            <label class="col-lg-2">Id:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control" data-ng-model="newCart.CartId" required />
-                </span>
-             </div>
-        <br>
-        <br>
-            <div class="form-group">
-                <label class="col-lg-2 " for="product">Produtos</label>
-                <span class="col-lg-10">
-                    <select id="product" class="form-control" ng-model="newCart.cart_Product" ng-options="p.Id as p.productName for p in products | orderBy:'Name'"></select>
-                </span>
+    <div id="page-wrapper">
+        <div data-ng-app data-ng-controller="cartController" class="container">
+            <strong class="error">{{ error }}</strong>
+            <div id="mydiv" data-ng-show="loading">
             </div>
-        <br>
-        <br>
-            <div class="form-group">
-            <label class="col-lg-2">Cliente:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control" data-ng-model="newCart.Client" required />
-                </span>
-           </div>
-        <br>
-        <br>
-        <div class="form-group">
-            <label class="col-lg-2">Total:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control" data-ng-model="newCart.Total" required />
-                </span>
-             </div>
+            <p data-ng-hide="addMode" title="Adicionar">
+                <a data-ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
+            </p>
             <br>
             <br>
-            <input type="submit" value="Adicionar" data-ng-click="add(newCart)" data-ng-disabled="!addcart.$valid" class="btn btn-default" />
-            <input type="button" value="Cancelar" data-ng-click="toggleAdd()" class="btn btn-default" />
-            <br /><br />
-</form>
-    <table class="table table-bordered table-hover" style="width:800px auto">
-        <tr>
-            <th>#</th>
-            <td>Produto</td>
-            <th>Cliente</th>
-            <th>Total</th>
-            <th>Ações</th>
-        </tr>
-        <tr ng-repeat="cart in carts">
-            <td><strong ng-hide="cart.editMode">{{cart.cartId }}</strong></td>
-            <td>
-                <p ng-hide="cart.editMode">{{cart.cart_Product }}</p>
-                <input class="form-control" ng-show="cart.editMode" type="text" ng-model="cart.cart_Product" />
-            </td>
-            <td>
-                <p ng-hide="cart.editMode">{{cart.client }}</p>
-                <input class="form-control" ng-show="cart.editMode" type="text" ng-model="cart.client" />
-            </td>
-            <td>
-                <p ng-hide="cart.editMode">{{cart.total }}</p>
-                <input class="form-control" ng-show="cart.editMode" type="text" ng-model="cart.total" />
-            </td>
-            <td>
-                <p ng-hide="cart.editMode" title="Editar"><a ng-click="toggleEdit(cart)" href="javascript:;"><i class="fa fa-edit fa-fw"></i></a> | <a ng-click="delete(cart)" href="javascript:;"><i class="fa fa-trash-o fa-fw"></i></a></p>
-                <p ng-show="cart.editMode" title="Salvar"><a ng-click="save(cart)" href="javascript:;"><i class="fa fa-save fa-fw"></i></a> | <a ng-click="toggleEdit(cart)" href="javascript:;"><i class="fa fa-times fa-fw"></i></a></p>
+            <form name="addcart" data-ng-show="addMode" style="width:600px;margin:0px auto;">
+                <div class="form-group">
+                    <label class="col-lg-2">Id:</label>
+                    <span class="col-lg-10">
+                        <input type="text" class="form-control" data-ng-model="newCart.CartId" required />
+                    </span>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-2 " for="product">Produtos</label>
+                    <span class="col-lg-10">
+                        <select id="product" class="form-control" ng-model="newCart.cart_Product" ng-options="p.Id as p.productName for p in products | orderBy:'Name'"></select>
+                    </span>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-2">Cliente:</label>
+                    <span class="col-lg-10">
+                        <input type="text" class="form-control" data-ng-model="newCart.Client" required />
+                    </span>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label class="col-lg-2">Total:</label>
+                    <span class="col-lg-10">
+                        <input type="text" class="form-control" data-ng-model="newCart.Total" required />
+                    </span>
+                </div>
+                <br>
+                <br>
+                <input type="submit" value="Adicionar" data-ng-click="add(newCart)" data-ng-disabled="!addcart.$valid" class="btn btn-default" />
+                <input type="button" value="Cancelar" data-ng-click="toggleAdd()" class="btn btn-default" />
+                <br /><br />
+            </form>
+            <table class="table table-bordered table-hover" style="width:800px auto">
+                <tr>
+                    <th>#</th>
+                    <td>Produto</td>
+                    <th>Cliente</th>
+                    <th>Total</th>
+                    <th>Ações</th>
+                </tr>
+                <tr ng-repeat="cart in carts">
+                    <td><strong ng-hide="cart.editMode">{{cart.cartId }}</strong></td>
+                    <td>
+                        <p ng-hide="cart.editMode">{{cart.cart_Product }}</p>
+                        <input class="form-control" ng-show="cart.editMode" type="text" ng-model="cart.cart_Product" />
+                    </td>
+                    <td>
+                        <p ng-hide="cart.editMode">{{cart.client }}</p>
+                        <input class="form-control" ng-show="cart.editMode" type="text" ng-model="cart.client" />
+                    </td>
+                    <td>
+                        <p ng-hide="cart.editMode">{{cart.total }}</p>
+                        <input class="form-control" ng-show="cart.editMode" type="text" ng-model="cart.total" />
+                    </td>
+                    <td>
+                        <p ng-hide="cart.editMode" title="Editar"><a ng-click="toggleEdit(cart)" href="javascript:;"><i class="fa fa-edit fa-fw"></i></a> | <a ng-click="delete(cart)" href="javascript:;"><i class="fa fa-trash-o fa-fw"></i></a></p>
+                        <p ng-show="cart.editMode" title="Salvar"><a ng-click="save(cart)" href="javascript:;"><i class="fa fa-save fa-fw"></i></a> | <a ng-click="toggleEdit(cart)" href="javascript:;"><i class="fa fa-times fa-fw"></i></a></p>
 
-            </td>
-        </tr>
-    </table>
-    <hr />
-</div>
- 
+                    </td>
+                </tr>
+            </table>
+            <hr />
+        </div>
+    </div>
+    </div>
+

@@ -23,13 +23,27 @@
         </ul>
     </div>
     <div id="page-wrapper">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">
+                     <small></small>
+                </h3>
+                <ol class="breadcrumb">
+                    <li class="active">
+                        <i class="fa fa-user"></i> Usuarios
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
         <div class="container" data-ng-app data-ng-controller="userController">
 
             <strong class="error">{{ error }}</strong>
             <div id="mydiv" data-ng-show="loading">
             </div>
-            <p data-ng-hide="addMode" title="Adicionar">
-                <a data-ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
+            <p ng-hide="addMode" title="Adicionar">
+                <a ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
             </p>
             <br>
             <br>
@@ -114,5 +128,6 @@
             </table>
             <hr />
         </div>
+            </div>
         </div>
     </div>

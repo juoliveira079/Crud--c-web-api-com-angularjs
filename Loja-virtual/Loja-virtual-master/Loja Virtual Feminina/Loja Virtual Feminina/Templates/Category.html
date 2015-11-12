@@ -1,75 +1,93 @@
 ﻿
+<div id="wrapper">
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav side-nav">
+            <li class="active">
+                <a href="#/usuario"><i class="fa fa-fw fa-user"></i> Usuarios</a>
+            </li>
+            <li>
+                <a href="#/produto"><i class="fa fa-fw fa-list"></i> Produtos</a>
+            </li>
+            <li>
+                <a href="#/categoria"><i class="fa fa-fw fa-list"></i> Categorias</a>
+            </li>
+            <li>
+                <a href="#/cart"><i class="fa fa-fw fa-shopping-cart"></i> Carrinhos</a>
+            </li>
+            <li>
+                <a href="#/sale"><i class="fa fa-fw fa-list"></i> Vendas</a>
+            </li>
+            <li>
+                <a href="#/configs"><i class="fa fa-fw fa-wrench"></i> Configurações</a>
+            </li>
 
-<div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav side-nav">
-        <li class="active">
-            <a href="#/usuario"><i class="fa fa-fw fa-user"></i> Usuarios</a>
-        </li>
-        <li>
-            <a href="#/produto"><i class="fa fa-fw fa-list"></i> Produtos</a>
-        </li>
-        <li>
-            <a href="#/categoria"><i class="fa fa-fw fa-list"></i> Categorias</a>
-        </li>
-        <li>
-            <a href="#/cart"><i class="fa fa-fw fa-shopping-cart"></i> Carrinhos</a>
-        </li>
-        <li>
-            <a href="#/sale"><i class="fa fa-fw fa-list"></i> Vendas</a>
-        </li>
-        <li>
-            <a href="#/configs"><i class="fa fa-fw fa-wrench"></i> Configurações</a>
-        </li>
-
-    </ul>
-</div>
-<div data-ng-app data-ng-controller="categoryController" class="container">
-    <strong class="error">{{ error }}</strong>
-    <div id="mydiv" data-ng-show="loading">
+        </ul>
     </div>
-    <p data-ng-hide="addMode" title="Adicionar">
-        <a data-ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
-    </p>
-    <br>
-    <br>
-    <form name="addcategory" data-ng-show="addMode" style="width:600px;margin:0px auto;">
-        <div class="form-group">
-            <label class="col-lg-2">Id:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control" data-ng-model="newCategory.CategoryId" required />
-            </span>
-        </div>
-        <br>
-        <div class="form-group">
-            <label class="col-lg-2">Nome:</label>
-            <span class="col-lg-10">
-                <input type="text" class="form-control" data-ng-model="newCategory.Category_Name" required />
-                </span>
-       </div>
-        <br>
-        <br>
-        <input type="submit" value="Adicionar" data-ng-click="add(newCategory)" data-ng-disabled="!addcategory.$valid" class="btn btn-default" />
-        <input type="button" value="Cancelar" data-ng-click="toggleAdd()" class="btn btn-default" />
-        <br /><br />
-    </form>
-    <table class="table table-bordered table-hover" style="width:800px auto">
-        <tr>
-            <th>#</th>
-            <td>Categoria</td>
-            <th>Ações</th>
-        </tr>
-        <tr ng-repeat="category in categories">
-            <td><strong ng-hide="category.editMode">{{category.categoryId }}</strong></td>
-            <td>
-                <p ng-hide="category.editMode">{{category.category_Name }}</p>
-                <input class="form-control" ng-show="category.editMode" type="text" ng-model="category.category_Name" />
-            </td>
-            <td>
-                <p ng-hide="category.editMode"><a ng-click="toggleEdit(category)" href="javascript:;"><i class="fa fa-edit fa-fw"></i></a> | <a ng-click="delete(category)" href="javascript:;"><i class="fa fa-trash-o fa-fw"></i></a></p>
-                <p ng-show="category.editMode"><a ng-click="save(category)" href="javascript:;"><i class="fa fa-save fa-fw"></i></a> | <a ng-click="toggleEdit(category)" href="javascript:;"><i class="fa fa-times fa-fw"></i></a></p>
+    <div id="page-wrapper">
 
-            </td>
-        </tr>
-    </table>
-    <hr />
-</div>
+       <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header">
+                <small></small>
+            </h3>
+            <ol class="breadcrumb">
+                <li class="active">
+                    <i class="fa fa-list"></i> Categorias
+                </li>
+            </ol>
+        </div>
+    </div>
+        <div class="row">
+            <div data-ng-app data-ng-controller="categoryController" class="container">
+                <strong class="error">{{ error }}</strong>
+                <div id="mydiv" data-ng-show="loading">
+                </div>
+                <p data-ng-hide="addMode" title="Adicionar">
+                    <a data-ng-click="toggleAdd()" href="javascript:;"><i class="fa fa-plus fa-fw"></i></a>
+                </p>
+                <br>
+                <br>
+                <form name="addcategory" data-ng-show="addMode" style="width:600px;margin:0px auto;">
+                    <div class="form-group">
+                        <label class="col-lg-2">Id:</label>
+                        <span class="col-lg-10">
+                            <input type="text" class="form-control" data-ng-model="newCategory.CategoryId" required />
+                        </span>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label class="col-lg-2">Nome:</label>
+                        <span class="col-lg-10">
+                            <input type="text" class="form-control" data-ng-model="newCategory.Category_Name" required />
+                        </span>
+                    </div>
+                    <br>
+                    <br>
+                    <input type="submit" value="Adicionar" data-ng-click="add(newCategory)" data-ng-disabled="!addcategory.$valid" class="btn btn-default" />
+                    <input type="button" value="Cancelar" data-ng-click="toggleAdd()" class="btn btn-default" />
+                    <br /><br />
+                </form>
+                <table class="table table-bordered table-hover" style="width:800px auto">
+                    <tr>
+                        <th>#</th>
+                        <td>Categoria</td>
+                        <th>Ações</th>
+                    </tr>
+                    <tr ng-repeat="category in categories">
+                        <td><strong ng-hide="category.editMode">{{category.categoryId }}</strong></td>
+                        <td>
+                            <p ng-hide="category.editMode">{{category.category_Name }}</p>
+                            <input class="form-control" ng-show="category.editMode" type="text" ng-model="category.category_Name" />
+                        </td>
+                        <td>
+                            <p ng-hide="category.editMode"><a ng-click="toggleEdit(category)" href="javascript:;"><i class="fa fa-edit fa-fw"></i></a> | <a ng-click="delete(category)" href="javascript:;"><i class="fa fa-trash-o fa-fw"></i></a></p>
+                            <p ng-show="category.editMode"><a ng-click="save(category)" href="javascript:;"><i class="fa fa-save fa-fw"></i></a> | <a ng-click="toggleEdit(category)" href="javascript:;"><i class="fa fa-times fa-fw"></i></a></p>
+
+                        </td>
+                    </tr>
+                </table>
+                <hr />
+            </div>
+        </div>
+        </div>
+    </div>
