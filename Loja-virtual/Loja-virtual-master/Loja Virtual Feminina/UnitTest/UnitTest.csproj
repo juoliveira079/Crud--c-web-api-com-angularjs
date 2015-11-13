@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{277F0195-AF5F-4480-87A4-845621F13BFA}</ProjectGuid>
+    <ProjectGuid>{E8980924-1CEB-446F-A8DF-E519D6751486}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTests</RootNamespace>
-    <AssemblyName>UnitTests</AssemblyName>
+    <RootNamespace>UnitTest</RootNamespace>
+    <AssemblyName>UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -45,9 +45,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Net.Http" />
@@ -77,19 +74,19 @@
     <Compile Include="Carts\TestCartController.cs" />
     <Compile Include="Carts\TestCartDbSet.cs" />
     <Compile Include="Categories\TestCategoryContext.cs" />
-    <Compile Include="Categories\TestCategoryDbSet.cs" />
     <Compile Include="Categories\TestCategoryController.cs" />
+    <Compile Include="Categories\TestCategoryDbSet.cs" />
     <Compile Include="Products\TestProductContext.cs" />
     <Compile Include="Products\TestProductController.cs" />
     <Compile Include="Products\TestProductDbSet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sales\TestSaleContext.cs" />
-    <Compile Include="Sales\TestSaleDbSet.cs" />
     <Compile Include="Sales\TestSaleController.cs" />
+    <Compile Include="Sales\TestSaleDbSet.cs" />
     <Compile Include="TestDbSet.cs" />
     <Compile Include="Users\TestUserContext.cs" />
-    <Compile Include="Users\TestUserDbSet.cs" />
     <Compile Include="Users\TestUserController.cs" />
+    <Compile Include="Users\TestUserDbSet.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Loja Virtual Feminina\Loja Virtual Feminina.csproj">
@@ -98,10 +95,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

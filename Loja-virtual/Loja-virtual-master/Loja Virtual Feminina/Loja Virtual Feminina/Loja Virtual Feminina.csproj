@@ -266,9 +266,8 @@
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\jasmine.css" />
-    <Content Include="css\morris.css" />
-    <Content Include="css\sb-admin.css" />
-    <Content Include="css\shop-homepage.css" />
+    <Content Include="css\admin.css" />
+    <Content Include="css\home.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
